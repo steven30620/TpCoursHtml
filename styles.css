@@ -1,0 +1,40 @@
+
+body
+{
+    font-family: Impact,montserrat_alternatesregular, 'Arial Narrow Bold', sans-serif;
+    color:white;
+    background: url("images/background.jpg") fixed no-repeat ;
+    background-size: 100%;
+    
+}
+
+#bloc_page
+{
+    width: 900px;
+    margin: auto;
+}
+
+
+ol
+{
+    list-style-type: none;
+}
+
+
+#logo
+{
+    width: 150px;
+    height: 150px;
+    border:auto
+}
+
+#topsection
+{
+    display:flex;
+    align-items: center ;
+    text-align: center;
+    padding: 15px;
+    margin: 30px;
+    border: plum 5px dashed;
+}
+
