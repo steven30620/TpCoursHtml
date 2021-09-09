@@ -90,7 +90,6 @@ li a
 #banniere h2
 {
  display: flex;
- flex-wrap: wrap;   
  position: absolute;
  top: 70%;
  left: 325px;
