@@ -9,17 +9,14 @@
 
 #bloc_page
 {
-    width: 900px;
-    margin: auto;
-    font-family: "montserrat_alternatesregular";
+        font-family: "montserrat_alternatesregular";
 }
 
 body
 {
     font-family: "montserrat_alternatesregular",Impact, 'Arial Narrow Bold', sans-serif;
     color:white;
-    background-color: #eeb9e9
-
+    background-color: #eeb9e9;
 }
 
 header 
@@ -28,34 +25,35 @@ header
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-items: baseline;
+    align-items:center;
     justify-content:space-between;
     background: url("images/background.jpg") fixed no-repeat ;
     background-size: 100%;
     background-attachment: scroll;
+    
 }
 
 
 #logo
 {
-    padding-top: 15px;
-    width: 150px;
-    height: 150px;
+    padding-top: 10px;
+    width: 200px;
+    height: 200px;
     align-items: baseline;
  }
 
-header h1
+#titre1
 {
     display: flex;
     flex-direction: row;
-    justify-content: left;
-    margin-right: auto;
-    vertical-align: bottom;
-    font-size: xx-large;
+    font-size: x-large;
     color: salmon;
-}
+    border: 3px inset blueviolet;
+    box-shadow: 3px 3px 20px 1px blueviolet;
+    text-shadow:   3px 3px 1.5px blueviolet ;
+  }
 
-nav ol
+#menu
 {
     list-style-type: none;
     display: flex;
@@ -74,8 +72,29 @@ li a
 }
 
 
-div #banniere
+
+
+
+#banniere
 {
-   display: flex;
-   justify-content: center;
+ display: flex;
+ padding-left: 300px;
+ margin-top: 30px;
+ position: relative;
+ text-align:center;
+ background:rgb(86, 5, 102);
+ 
+} 
+
+
+#banniere h2
+{
+ display: flex;
+ flex-wrap: wrap;   
+ position: absolute;
+ top: 70%;
+ left: 325px;
+ font-size: 50px;
+ background:rgb(239, 130, 243);
+
 }
